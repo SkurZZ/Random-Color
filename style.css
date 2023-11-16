@@ -119,3 +119,21 @@ main {
   transition: color var(--transition-duration);
   color: var(--primary-color-5);
 }
+
+@media screen and (max-width: 368px) {
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  nav a {
+    margin-top: 10px;
+    letter-spacing: normal;
+    font-size: 15px;
+
+  }
+
+  .container {
+    margin: 30px;
+  }
+}
